@@ -12,7 +12,6 @@ namespace DesignPatterns.Behavioral
     {
         public DecoratorPattern()
         {
-
             PizzaToppings toppings;
             VegPizza vp = new VegPizza();
             Console.WriteLine($"Veg Prize : {vp.Cost()}");
